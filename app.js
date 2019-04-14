@@ -6,6 +6,23 @@ const path = require('path');
 const ip = require('ip');
 const host = ip.address();
 
+app.all('*',function (req,res,next) {
+    res.header("Access-Control-Allow-Origin", 'http://localhost:8080')
+    res.header("Access-Control-Allow-Methods", "POST,GET,OPTIONS")
+    res.header("Access-Control-Max-Age",86400)
+    res.header("Access-Control-Allow-Headers", "X-PINGOTHER,Origin, No-Cache, X-Requested-With, If-Modified-Since, Pragma, Last-Modified, Cache-Control, Expires, Content-Type, X-E4M-With")
+    //有时候为了防止网页被别人的网站iframe，我们可以通过在服务端设置HTTP头部中的X-Frame-Options信息。
+    res.header("X-Frame-Options", "SAMEORIGIN")
+    //cookie
+    res.header("Access-Control-Allow-Credentials",true)
+    res.header("withCredentials",true)
+    var file = req.url.split('?')[0].split('/').join('_').replace('_','')
+    file = '../mock/'+file+'.json';
+    var ans = require(file);
+    return res.jsonp(ans)
+  })
+
+
 /** 虎扑api接口 */
 const hupuLoginRouter = require('./routerHupu/user/index');
 const hupuGamesDataRouter = require('./routerHupu/gamesData/index');
