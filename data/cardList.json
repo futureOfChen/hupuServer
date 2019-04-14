@@ -1,0 +1,27 @@
+[
+    {
+        "virtualCardNo":"6228***8899",
+        "pan":"6228***8899",
+        "bank":"中国银行",
+        "iconRelUrl":"bank_china.png",
+        "cardType":"借记卡",
+        "isSupport":"0"
+    },
+    {
+        "virtualCardNo":"6228***8899",
+        "pan":"6228***8899",
+        "bank":"农业银行",
+        "iconRelUrl":"bank_arg.jpg",
+        "cardType":"借记卡",
+        "isSupport":"1"
+    },
+    {
+        "virtualCardNo":"6228***8899",
+        "pan":"6228***8899",
+        "bank":"建设银行",
+        "iconRelUrl":"bank_build.jpg",
+        "cardType":"储蓄卡",
+        "isSupport":"1",
+        "selected":true
+    }       
+]

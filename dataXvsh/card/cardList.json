@@ -1,0 +1,33 @@
+[
+    {
+        "bank":"建设银行",
+        "cardType":"借记卡",
+        "functionBitmap":"11100001",
+        "iconRelUrl":"bank_build.jpg",
+        "isSupport":"1",
+        "pan":"4213**1006",
+        "rank":0,
+        "virtualCardNo":"727d4211-2bed-3233-959e-ac066ad264b1",
+        "selected":1
+    },
+    {
+        "bank":"农业银行",
+        "cardType":"借记卡",
+        "functionBitmap":"11100001",
+        "iconRelUrl":"bank_arg.jpg",
+        "isSupport":"1",
+        "pan":"4213**1023",
+        "rank":0,
+        "virtualCardNo":"727d4211-2bed-5645-959e-ac066ad264b1"
+    },
+    {
+        "bank":"中国银行",
+        "cardType":"借记卡",
+        "functionBitmap":"11100001",
+        "iconRelUrl":"bank_china.png",
+        "isSupport":"0",
+        "pan":"4213**1049",
+        "rank":0,
+        "virtualCardNo":"727d4211-2bed-8756-959e-ac066ad264b1"
+    }
+]

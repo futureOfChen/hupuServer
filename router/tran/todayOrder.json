@@ -1,0 +1,22 @@
+[
+    {
+        "txnAmt":"100",                               
+        "merNm":"凉白开",                                   
+        "collectAccNo":"5522**36363256",                            
+        "transTm":"20181107095707",                   
+        "orderSt":"00",                                 
+        "accNo":"3333333333",                                   
+        "transSeqId":"8968968076786785675675",                              
+        "voucherNum":"yinlian64655354"                               
+    },
+    {
+        "txnAmt":"100",                               
+        "merNm":"凉白开",                                   
+        "collectAccNo":"5522**36363256",                            
+        "transTm":"20181107095707",                   
+        "orderSt":"00",                                 
+        "accNo":"3333333333",                                   
+        "transSeqId":"8968968076786785675675",                              
+        "voucherNum":"yinlian64655354"                               
+    }
+]

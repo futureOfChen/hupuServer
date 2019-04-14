@@ -1,0 +1,19 @@
+{
+	"upgradeSt": "1",
+	"storeNm": "超神水之家",
+	"storeTp": "0801",
+	"area": "340000|340100|340101",
+	"addr": "南天门玉林君店",
+	"cardNo": "4213**1006",
+	"bankNm": "建设银行",
+	"iconRelUrl": "bank_build.jpg",
+	"cardType": "借记卡",
+	"accNm": "轩尼诗猪猪",
+	"mchntCd": "261685",
+	"logoUrl": "logo_store.jpg",
+	"qrSt": "0",
+	"cerAudSt": "1",
+	"bizLicAudSt": "0",
+	"qrUrl": "https://www.zhihu.com",
+	"qrNum": "9527568945"
+}

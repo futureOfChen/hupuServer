@@ -1,0 +1,8 @@
+{
+    "dCardLimitAt":"",                                     
+    "dDailiyLimitAt":"20000",                                   
+    "dMonthLimitAt":"60000",                                    
+    "cCardLimitAt":"3000",                                     
+    "cDailiyLimitAt":"10000",                                   
+    "cMonthLimitAt":"60000"     
+}
