@@ -5,6 +5,11 @@ const logger = require('morgan');
 const path = require('path');
 const ip = require('ip');
 const host = ip.address();
+const bodyParser = require('body-parser');
+// 解析 application/json
+app.use(bodyParser.json()); 
+// 解析 application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded());
 
 app.all('*', function (req, res, next) {
     res.header('Access-Control-Allow-Origin', 'http://localhost:3000');
