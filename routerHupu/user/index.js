@@ -6,13 +6,14 @@ let phoneList = require('./data/phones.json');
 loginRouter.post('/login', (req, res, next) => {
     const paramPost = req.body || {};
     let isPhoneOk = phoneList.indexOf(paramPost.phone) == -1;
-    if( isPhoneOk ){
+    if( !isPhoneOk ){
         res.status(200);
         res.json({
             data: {},
             msg: '登录失败,手机号错误',
             statusCode: 999
         });
+        return ;
     }
     res.status(200);
     res.json({
