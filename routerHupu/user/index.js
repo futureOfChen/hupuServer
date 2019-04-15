@@ -5,8 +5,9 @@ let phoneList = require('./data/phones.json');
 
 loginRouter.post('/login', (req, res, next) => {
     const paramPost = req.body || {};
-    let isPhoneOk = phoneList.indexOf(paramPost.phone) == -1;
-    if( !isPhoneOk ){
+   
+    let isPhoneWrong = phoneList.indexOf(paramPost.phone) == -1;
+    if( isPhoneWrong ){
         res.status(200);
         res.json({
             data: {},
